@@ -1,0 +1,11 @@
+@import "node_modules/bulma/sass/utilities/all";
+
+$speed-slow: 150ms !default;
+$speed-slower: 250ms !default;
+
+$radio-active-background-color: $primary !default;
+$radio-border: 1px solid $grey;
+$radio-size: 1.25em !default;
+
+/* Box-shadow on hover */
+$radio-has-shadows: 0 !default;
