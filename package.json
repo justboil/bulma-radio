@@ -1,6 +1,6 @@
 {
   "name": "bulma-radio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom radio controls for Bulma CSS Framework",
   "homepage": "https://justboil.me/",
   "main": "scss/main.scss",
@@ -11,8 +11,8 @@
     "css",
     "form",
     "input",
-    "controls",
-    "checkbox"
+    "control",
+    "radio"
   ],
   "scripts": {
     "build": "gulp",
