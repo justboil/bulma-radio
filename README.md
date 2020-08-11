@@ -1,6 +1,6 @@
 # Bulma Custom Radio
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://justboil.github.io/bulma-radio/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-radio/)
+[![version](https://img.shields.io/npm/v/bulma-radio.svg)](https://justboil.github.io/bulma-radio/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-radio/)
 
 [![Custom radio controls for Bulma CSS Framework](https://justboil.me/images/bulma-radio/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-radio/)
 
@@ -10,8 +10,8 @@
 * Pure HTML & CSS/SCSS
 * Built for Bulma CSS Framework
 * No js framework dependencies
+* Ready-to-use CSS
 * SCSS sources with variables
-* Preconfigured webpack
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ Use with scss
 /* Bulma */
 @import "~bulma/bulma";
 
-/* Bulma Responsive Tables */
+/* Bulma Radio */
 @import "~bulma-radio";
 ```
 
@@ -55,7 +55,8 @@ You may just copy pre-compiled css file from the repository https://github.com/j
 ```html
 <!-- Bulma -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-<!-- Bulma Responsive Tables -->
+
+<!-- Bulma Radio -->
 <link rel="stylesheet" href="%SOME-LOCAL-PATH%/bulma-radio/css/main.min.css">
 ```
 
@@ -75,7 +76,7 @@ JustBoil's free items are limited to community support on GitHub.
 
 The issue list is reserved exclusively for bug reports and feature requests. That means we do not accept usage questions. If you open an issue that does not conform to the requirements, it will be closed.
 
-1. Make sure that you are using the latest version of the package
+1. Make sure you are using the latest version of the package
 2. Provide steps to reproduce
 3. Provide an expected behavior
 4. Describe what is actually happening 

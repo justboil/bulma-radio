@@ -1,6 +1,6 @@
 {
   "name": "bulma-radio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom radio controls for Bulma CSS Framework",
   "homepage": "https://justboil.me/",
   "main": "scss/main.scss",
