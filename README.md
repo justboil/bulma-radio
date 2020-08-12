@@ -41,11 +41,11 @@ $ npm i bulma-radio --save
 Use with scss
 
 ```scss
-/* Bulma */
-@import "node_modules/bulma/bulma";
-
 /* Bulma Radio */
 @import "node_modules/bulma-radio/bulma-radio";
+
+/* Bulma */
+@import "node_modules/bulma/bulma";
 ```
 
 ### ... or use as CSS
