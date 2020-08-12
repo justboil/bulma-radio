@@ -1,6 +1,6 @@
 # Bulma Custom Radio
 
-[![version](https://img.shields.io/npm/v/bulma-radio.svg)](https://justboil.github.io/bulma-radio/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-radio/)
+[![version](https://img.shields.io/npm/v/bulma-radio.svg)](https://www.npmjs.com/package/bulma-radio)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-radio/)
 
 [![Custom radio controls for Bulma CSS Framework](https://justboil.me/images/bulma-radio/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-radio/)
 
