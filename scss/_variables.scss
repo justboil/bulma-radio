@@ -4,7 +4,7 @@ $speed-slow: 150ms !default;
 $speed-slower: 250ms !default;
 
 $radio-active-background-color: $primary !default;
-$radio-border: 1px solid $grey;
+$radio-border: 1px solid $grey !default;
 $radio-size: 1.25em !default;
 
 /* Box-shadow on hover */

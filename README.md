@@ -42,15 +42,15 @@ Use with scss
 
 ```scss
 /* Bulma */
-@import "~bulma/bulma";
+@import "node_modules/bulma/bulma";
 
 /* Bulma Radio */
-@import "~bulma-radio";
+@import "node_modules/bulma-radio/bulma-radio";
 ```
 
 ### ... or use as CSS
 
-You may just copy pre-compiled css file from the repository https://github.com/justboil/bulma-radio/tree/master/css or node_modules `node_modules/bulma-radio/css` and use it in HTML
+You may just copy pre-compiled `main.css` or `main.min.css` file from the [repository](https://github.com/justboil/bulma-radio/tree/master/css) or from `node_modules/bulma-radio/css` folder and use it in HTML
 
 ```html
 <!-- Bulma -->
