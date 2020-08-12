@@ -6,6 +6,7 @@
   "main": "bulma-radio.scss",
   "style": "css/main.min.css",
   "keywords": [
+    "scss",
     "sass",
     "bulma",
     "css",
