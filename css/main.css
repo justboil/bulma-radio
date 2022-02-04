@@ -1,12 +1,4 @@
-@keyframes spinAround {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
+/* Bulma Utilities */
 .b-radio.radio {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -51,7 +43,7 @@
   height: 1.25em;
   transition: background 150ms ease-out;
   border-radius: 50%;
-  border: 1px solid #7a7a7a;
+  border: 2px solid #7a7a7a;
 }
 
 .b-radio.radio input[type=radio] + .check:before {
@@ -59,9 +51,9 @@
   display: flex;
   position: absolute;
   left: 50%;
-  margin-left: calc(-1.25em / 2);
+  margin-left: calc(-1.25em * 0.5);
   bottom: 50%;
-  margin-bottom: calc(-1.25em / 2);
+  margin-bottom: calc(-1.25em * 0.5);
   width: 1.25em;
   height: 1.25em;
   transition: transform 150ms ease-out;
@@ -91,19 +83,19 @@
 }
 
 .b-radio.radio input[type=radio] + .check.is-link:before {
-  background: #3273dc;
+  background: #485fc7;
 }
 
 .b-radio.radio input[type=radio] + .check.is-info:before {
-  background: #3298dc;
+  background: #3e8ed0;
 }
 
 .b-radio.radio input[type=radio] + .check.is-success:before {
-  background: #48c774;
+  background: #48c78e;
 }
 
 .b-radio.radio input[type=radio] + .check.is-warning:before {
-  background: #ffdd57;
+  background: #ffe08a;
 }
 
 .b-radio.radio input[type=radio] + .check.is-danger:before {
@@ -135,19 +127,19 @@
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-link {
-  border-color: #3273dc;
+  border-color: #485fc7;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-info {
-  border-color: #3298dc;
+  border-color: #3e8ed0;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-success {
-  border-color: #48c774;
+  border-color: #48c78e;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-warning {
-  border-color: #ffdd57;
+  border-color: #ffe08a;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-danger {
@@ -158,12 +150,64 @@
   transform: scale(0.5);
 }
 
+.b-radio.radio input[type=radio]:focus + .check {
+  box-shadow: 0 0 0.5em rgba(122, 122, 122, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check {
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-white {
+  box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-black {
+  box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-light {
+  box-shadow: 0 0 0.5em rgba(245, 245, 245, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-dark {
+  box-shadow: 0 0 0.5em rgba(54, 54, 54, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-primary {
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-link {
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-info {
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-success {
+  box-shadow: 0 0 0.5em rgba(72, 199, 142, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-warning {
+  box-shadow: 0 0 0.5em rgba(255, 224, 138, 0.8);
+}
+
+.b-radio.radio input[type=radio]:focus:checked + .check.is-danger {
+  box-shadow: 0 0 0.5em rgba(241, 70, 104, 0.8);
+}
+
 .b-radio.radio .control-label {
-  padding-left: 0.5em;
+  padding-left: calc(0.75em - 1px);
 }
 
 .b-radio.radio.button {
   display: flex;
+}
+
+.b-radio.radio.button.is-selected {
+  z-index: 1;
 }
 
 .b-radio.radio[disabled] {
@@ -195,19 +239,19 @@
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-link {
-  border-color: #3273dc;
+  border-color: #485fc7;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-info {
-  border-color: #3298dc;
+  border-color: #3e8ed0;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-success {
-  border-color: #48c774;
+  border-color: #48c78e;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-warning {
-  border-color: #ffdd57;
+  border-color: #ffe08a;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-danger {
